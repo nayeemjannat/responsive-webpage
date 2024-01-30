@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>travel-webpage</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -17,13 +17,24 @@
           adventure, and discover the beauty of different places and people.
         </div>
         <div class="input-field">
-          <input type="text" placeholder="Where go" />
-          <input type="text" placeholder="When" />
-          <input type="text" placeholder="Select Type" />
-          <button class="btn-header">Find Now</button>
+            <div class="input-1">
+                <input type="text" placeholder="Where go" />
+            </div>
+          <div class="input-2">
+            <input type="text" placeholder="When"/>
+          </div>
+          <div class="input-3">
+            <input type="text" placeholder="Select Type" />
+          </div>
+          <div class="btn">
+            <button class="btn-header">Find Now</button>
+          </div>
+          
         </div>
       </div>
     </header>
+    <!-- headerend -->
+
     <main>
       <section class="about-we">
         <div class="about-we-description">
@@ -40,7 +51,7 @@
            <p>Ready for an awesome adventure? Join us as we explore, discover, and make unforgettable memories together. Your next exciting journey is just a click away!</p>
            <button class="about-btn">Read More</button>
         </div>
-        <div>
+        <div class="about-img">
             <img src="./Images/Rectangle 4.png" alt="">
         </div>
 
@@ -52,8 +63,8 @@
 
       <section class="destination-container">
         <div>
-            <h2>Choose Your Destination</h2>
-            <p>Welcome to our "Choose Your Destination" corner! Here, you get to choose where your next trip will be. Explore our options to find the perfect destination for your dream vacation. From beautiful landscapes to exciting cultures, we've got choices that fit your travel style. Your next adventure is just a click away – start exploring now!</p>
+            <h2 id="destination-title">Choose Your Destination</h2>
+            <p id="destination-description">Welcome to our "Choose Your Destination" corner! Here, you get to choose where your next trip will be. Explore our options to find the perfect destination for your dream vacation. From beautiful landscapes to exciting cultures, we've got choices that fit your travel style. Your next adventure is just a click away – start exploring now!</p>
         </div>
         
          <div class="row">
@@ -72,35 +83,78 @@
       </section>
 
       <!-- Why choose us -->
-      <section>
+      <section class="choose">
+        <div class="choose-title">
+          <h2>Why Choose Us</h2>
+        </div>
+        <div class="choose-description">
+          <p>"Why us? Because we're here to make your travels awesome! With top-notch service and personalized experiences, we've got your back for the perfect journey."</p>
+        </div>
+       
+        <div class="card-container-1">
+            <div class="card-1">
+                <h3>Handpicked Hotels</h3>
+                <p>Handpicked Hotels carefully selects special places to stay, making sure they are comfy,<br>high-quality, and have their own unique charm, so you can enjoy a memorable and personalized experience during your travels.</p>
+          </div>
+          <div class="card-2">
+                <h3>World Class Service</h3>
+                <p>"Experience top-notch service that makes you feel like a VIP! Our world-class service is<br>all about making your journey extraordinary and stress-free."</p>
+          </div>
+
+        </div>
         
+        <div class="card-3">
+              <h3>Best Price Guarantee</h3>
+              <p>Our Best Price Guarantee ensures you get the most affordable rates, promising the best deal<br> available for your accommodation, so you can travel with confidence, knowing you've secured the lowest price.</p>
+        </div>
       </section>
     <!-- News letter section -->
     <section class="letter">
-        <div>
+        <div class="letter-leftside">
             <h2>Newsletter</h2>
             <p>Get your daily dose of travel news & tips. Sign up today!</p>
             <input type="text"placeholder="Enter your name">
             <input type="text"placeholder="Enter your email">
             <button>Subscribe</button>
         </div>
-        <div>
+        <div class="letter-rightside">
             <img src="./Images/Rectangle 8 (1).png" alt="">
+            <div class="letter-rightside-badge">
+              <p id="badge-title">Travel.com</p>
+              <h2 id="badge-description">Save up to 70%</h2>
+            </div>
         </div>
+        
     </section>
     </main>
-    <footer>
-       
-            <img src="./Images/Group 40071 (2).png" alt="">
-        
+
+
+    <!-- footer section -->
+
+    <footer class="foot-container">
+      <section class="foot-top">
+        <div class="foot-img">
+          <img src="./Images/Group 40071 (2).png" alt="">
+         </div>
+             
+          <div class="foot-title">
             <h2>Hero Travel</h2>
-      <p>Thank you for visiting our website! Stay tuned for exciting travel adventures and incredible experiences as we continue to inspire your wanderlust.</p>
-      <hr>
-      <p>2017, All Rights Reserved.</p>
+          </div>
+      </section>
+    
+      <p id="foot-description">Thank you for visiting our website! Stay tuned for exciting travel adventures and incredible experiences as we continue to inspire your wanderlust.</p>
+      <div class="icon">
+        <img src="./Images/twitter.png" alt="">
+        <img src="./Images/facebook.png" alt="">
+        <img src="./Images/instagram.png" alt="">
+        <img src="./Images/github.png" alt="">
+      </div>
+      <hr id="line">
+      <p id="foot-last">2017, All Rights Reserved.</p>
            
         
       
          
     </footer>
-  </body>
+ </body>
 </html>
